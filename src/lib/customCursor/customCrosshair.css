@@ -1,0 +1,28 @@
+  .rounded{
+    margin-left: -15px;
+    margin-top: -15px;
+    pointer-events: none;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ced0d4;
+    border-radius: 50% !important;
+    box-sizing: border-box;
+    z-index: 1000;
+  }
+  .pointed{
+    margin-left: -4px;
+    margin-top: -4px;
+    width: 8px;
+    height: 8px;
+    background-color: #ced0d4;
+    border-radius: 50%;
+    z-index: 1001;
+  }
+  
+  .cursor{
+    position: fixed;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    z-index: 1000;
+  }
